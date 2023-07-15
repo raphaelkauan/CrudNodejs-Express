@@ -32,5 +32,3 @@ mongoose.connect(`mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.g6y8wqv.mongo
     app.listen(3000)
 })
 .catch((err) => console.log(err))
-
-app.listen(3000)
