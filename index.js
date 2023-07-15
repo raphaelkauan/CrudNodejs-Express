@@ -20,7 +20,6 @@ app.use('/person', personRoutes)
 // rota inicial / endpoint
 app.get('/', (req, res) => {
     // mostrar req
-
     res.json({ 
         message: 'oi express!',
         outraMensagem: 'olá'
